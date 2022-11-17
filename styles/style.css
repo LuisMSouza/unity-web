@@ -34,6 +34,7 @@ li a:hover {
 
 .logo {
     display: flex;
+    align-items: center;
     padding: 5px;
 }
 
@@ -69,4 +70,48 @@ li a:hover {
 #btnlogin:hover {
     background-color: rgb(109, 10, 190);
     cursor: pointer;
+}
+
+.container-team {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 10%;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.member-1 p {
+    background-color: #282a36;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.member-2 p {
+    background-color: #282a36;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.member-3 p {
+    background-color: #282a36;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.member-1 img {
+    border-radius: 80px;
+    border: rgb(130, 15, 224) solid 3px;
+}
+
+.member-2 img {
+    border-radius: 80px;
+    border: rgb(130, 15, 224) solid 3px;
+}
+
+.member-3 img {
+    width: 120px;
+    border-radius: 80px;
+    border: rgb(130, 15, 224) solid 3px;
 }
