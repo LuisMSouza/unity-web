@@ -100,18 +100,57 @@ li a:hover {
     border-radius: 5px;
 }
 
-.member-1 img {
+#img-1 {
     border-radius: 80px;
     border: rgb(130, 15, 224) solid 3px;
 }
 
-.member-2 img {
+#img-2 {
     border-radius: 80px;
     border: rgb(130, 15, 224) solid 3px;
 }
 
-.member-3 img {
-    width: 120px;
+#img-3 {
     border-radius: 80px;
     border: rgb(130, 15, 224) solid 3px;
+}
+
+#github-img-1 {
+    width: 35px;
+    /* margin-right: 80%; */
+    margin-top: -8%;
+}
+
+#discord-img-1 {
+    width: 32px;
+    margin-top: -8%;
+    margin-right: 80%;
+}
+
+#github-img-2 {
+    width: 35px;
+    /* margin-right: 80%; */
+    margin-top: -8%;
+}
+
+#discord-img-2 {
+    width: 32px;
+    margin-top: -8%;
+    margin-right: 80%;
+}
+
+#github-img-3 {
+    width: 35px;
+    margin-top: -8%;
+}
+
+#discord-img-3 {
+    width: 32px;
+    margin-top: -8%;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
