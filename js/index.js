@@ -1,3 +1,1 @@
-function isLoogedIn() {
-    
-}
+function isLoogedIn() {}

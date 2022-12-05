@@ -1,156 +1,164 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
 
 body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #343746;
-    color: white;
+  font-family: "Poppins", sans-serif;
+  background-color: #343746;
+  color: white;
 }
 
 .navbar {
-    background-color: #282a36;
-    margin: -8px;
+  background-color: #282a36;
+  margin: -8px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
 ul {
-    display: flex;
-    margin-top: -50px;
+  display: flex;
+  margin-top: -50px;
 }
 
-
 li {
-    list-style: none;
-    justify-content: end;
-    padding: 10px;
+  list-style: none;
+  justify-content: end;
+  padding: 10px;
 }
 
 li a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 li a:hover {
-    color: rgb(130, 15, 224);
+  color: rgb(130, 15, 224);
 }
 
 .logo {
-    display: flex;
-    align-items: center;
-    padding: 5px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
 }
 
 .logo img {
-    width: 50px;
-    height: 50px;
+  width: 50px;
+  height: 50px;
 }
 
 .navitems {
-    display: flex;
-    justify-content: end;
-    align-items: center;
+  display: flex;
+  justify-content: end;
+  align-items: center;
 }
 
 .container-1 {
-    padding-top: 50px;
-    text-align: center;
+  padding-top: 50px;
+  text-align: center;
 }
 
 #btnlogin {
-    margin-top: -60px;
-    margin-left: 30px;
-    margin-right: 20px;
-    border: none;
-    font-size: large;
-    border-radius: 5px;
-    padding: 10px;
-    width: 80px;
-    background-color: rgb(130, 15, 224);
-    color: white;
+  margin-top: -60px;
+  margin-left: 30px;
+  margin-right: 20px;
+  border: none;
+  font-size: large;
+  border-radius: 5px;
+  padding: 10px;
+  width: 80px;
+  background-color: rgb(130, 15, 224);
+  color: white;
+  font-family: "Poppins", sans-serif;
 }
 
 #btnlogin:hover {
-    background-color: rgb(109, 10, 190);
-    cursor: pointer;
+  background-color: rgb(109, 10, 190);
+  cursor: pointer;
 }
 
 .container-team {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: space-between;
-    margin-top: 10%;
-    padding-left: 80px;
-    padding-right: 80px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  margin-top: 10%;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
 .member-1 p {
-    background-color: #282a36;
-    padding: 5px;
-    border-radius: 5px;
+  background-color: #282a36;
+  padding: 5px;
+  border-radius: 5px;
 }
 
 .member-2 p {
-    background-color: #282a36;
-    padding: 5px;
-    border-radius: 5px;
+  background-color: #282a36;
+  padding: 5px;
+  border-radius: 5px;
 }
 
 .member-3 p {
-    background-color: #282a36;
-    padding: 5px;
-    border-radius: 5px;
+  background-color: #282a36;
+  padding: 5px;
+  border-radius: 5px;
 }
 
 #img-1 {
-    border-radius: 80px;
-    border: rgb(130, 15, 224) solid 3px;
+  border-radius: 80px;
+  border: rgb(130, 15, 224) solid 3px;
 }
 
 #img-2 {
-    border-radius: 80px;
-    border: rgb(130, 15, 224) solid 3px;
+  border-radius: 80px;
+  border: rgb(130, 15, 224) solid 3px;
 }
 
 #img-3 {
-    border-radius: 80px;
-    border: rgb(130, 15, 224) solid 3px;
+  border-radius: 80px;
+  border: rgb(130, 15, 224) solid 3px;
 }
 
 #github-img-1 {
-    width: 35px;
-    /* margin-right: 80%; */
-    margin-top: -8%;
+  width: 35px;
+  /* margin-right: 80%; */
+  margin-top: -8%;
 }
 
 #discord-img-1 {
-    width: 32px;
-    margin-top: -8%;
-    margin-right: 80%;
+  width: 32px;
+  margin-top: -8%;
+  margin-right: 80%;
 }
 
 #github-img-2 {
-    width: 35px;
-    /* margin-right: 80%; */
-    margin-top: -8%;
+  width: 35px;
+  /* margin-right: 80%; */
+  margin-top: -8%;
 }
 
 #discord-img-2 {
-    width: 32px;
-    margin-top: -8%;
-    margin-right: 80%;
+  width: 32px;
+  margin-top: -8%;
+  margin-right: 80%;
 }
 
 #github-img-3 {
-    width: 35px;
-    margin-top: -8%;
+  width: 35px;
+  margin-top: -8%;
 }
 
 #discord-img-3 {
-    width: 32px;
-    margin-top: -8%;
+  width: 32px;
+  margin-top: -8%;
 }
 
 .social {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.social a svg {
+  text-decoration: none;
+  color: black;
 }
